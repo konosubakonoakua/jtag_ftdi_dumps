@@ -4,7 +4,7 @@ It looks like Xilinx finally added a [tool](https://docs.xilinx.com/r/en-US/ug90
 
 FTDI EEPROM dumps for common JTAG FPGA programmers mostly pulled from https://gist.github.com/rikka0w0/24b58b54473227502fa0334bbe75c3c1. To flash a binary, run the following command.
 
-	ftdi_eeprom --flash-eeprom <config-file>
+	sudo ftdi_eeprom --flash-eeprom <config-file>
 
 | conf file | chip |
 | --- | --- |
