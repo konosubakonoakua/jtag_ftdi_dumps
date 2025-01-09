@@ -6,10 +6,10 @@ FTDI EEPROM dumps for common JTAG FPGA programmers mostly pulled from https://gi
 
 	sudo ftdi_eeprom --flash-eeprom <config-file>
 
-| conf file | chip |
-| --- | --- |
-| digilent_hs2.conf | FT232H |
-| arrow_ftdi.conf | FT2232H |
-| digilent_smt1.conf | FT2232H |
-| pynqz2_ftdi.conf | FT2232H |
-| ft4232h.conf | FT4232H |
+| conf file | chip | status |
+| --- | --- | --- |
+| digilent_hs2.conf | FT232H | not tested |
+| arrow_ftdi.conf | FT2232H | not working with vivado 2019.1 on linux, working on win |
+| digilent_smt1.conf | FT2232H | working well |
+| pynqz2_ftdi.conf | FT2232H | not working with vivado 2019.1 on linux, working on win |
+| ft4232h.conf | FT4232H | not tested |
